@@ -1,0 +1,18 @@
+---
+title: ZimUzo Foundation
+email: your-email@domain.com
+author: ENEIV
+author_github: ENEIV
+description: |
+  a simple theme for Jekyll using Materializecss
+baseurl: "/"
+url:
+
+github:
+  user: ENEIV
+  repository: ZimUzo
+  url: https://github.com/ENEIV/ZimUzo/
+  status: true
+
+
+markdown: kramdown

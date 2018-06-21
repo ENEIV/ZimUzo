@@ -1,0 +1,8 @@
+---
+---
+
+body {
+  background-image: url('{{ site.baseurl }}assets/img/sunrise_1.jpg');
+  background-size: cover;
+  height: 100vh;
+}
