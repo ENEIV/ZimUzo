@@ -1,5 +1,54 @@
+/* BASE STYLING */
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
 body {
   background-image: url('/assets/img/sunrise_1.jpg');
   background-size: cover;
   height: 100vh;
+  font-variant: small-caps;
+}
+
+.serif {
+  font-family: "Times New Roman";
+  font-weight: lighter;
+  font-size: 1.85rem !important;
+}
+
+/* --------------------------------------------- */
+
+/* HEADER-NAV */
+nav {
+  background-color: rgba(0, 0, 0, 0.10) !important;
+}
+/* This removes the pink
+background from the navigation
+bar */
+
+.nav-ul li > a {
+  font-size: 1.5rem !important;
+}
+/* Increase in font-size for
+the navigation list item and
+add serif styling */
+
+.brand-logo {
+  padding-left: 0.85rem !important;
+}
+/* Adding some space to the
+"ZimUzo Foundation" nav
+logo/title to make it look
+more natural */
+
+/* --------------------------------------------- */
+
+/* LANDING */
+#landing {
+  height: 100%;
+}
+
+.landing-logo {
+  background-image:url('/assets/img/logo/ZimUzo_VIII-PATH.png');
 }

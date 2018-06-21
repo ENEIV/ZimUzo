@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <!-- head-meta-data -->
 <head>
     <meta charset="UTF-8">
@@ -8,32 +9,67 @@
     <meta name="msapplication-TileImage" content="/assets/img/icons/">
     <meta name="theme-color" content="#ffffff">
     <!-- stylesheets -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
-
+    <!--Import Social Media Icons-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- header -->
     <header>
 
-  
+  <nav class="z-depth-0">
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo serif">
+        ZimUzo | <small>Foundation</small>
+      </a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="nav-ul right hide-on-med-and-down">
+        <li><a class="serif" href="#about">about</a></li>
+        <li><a class="serif" href="#donate">donate</a></li>
+        <li><a class="serif" href="#">projects</a></li>
+        <li><a class="serif" href="#contacts">reports</a></li>
+        <li><a class="serif" href="#contacts">contacts</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="nav-ul sidenav" id="mobile-demo">
+    <li><a class="serif" href="sass.html">Sass</a></li>
+    <li><a class="serif" href="badges.html">Components</a></li>
+    <li><a class="serif" href="collapsible.html">Javascript</a></li>
+    <li><a class="serif" href="mobile.html">Mobile</a></li>
+  </ul>
+
 </header>
 
 
     <!-- main content -->
-    <main class="container" role="main">
-        <article class="landing">
+    <main role="main">
+        <article id="landing">
   <section>
+    <div class="row">
+      <div class="col s6 m6">
+        <div class="landing-logo"></div>
+      </div>
 
 
-  
+      <div class="col s6 m6">
+        <div class="card">
+          <div class="card-content black-text">
+            <span class="card-title">Card Title</span>
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 </section>
 
 </article>
 
-<article class="features">
+<article id="features">
   <section class="feature-1">
 
 </section>
@@ -43,7 +79,7 @@
 
 </article>
 
-<article class="testimonial">
+<article id="testimonial">
   <section>
 
 
@@ -52,7 +88,7 @@
 
 </article>
 
-<article class="about">
+<article id="about">
   <section>
 
 
@@ -61,7 +97,16 @@
 
 </article>
 
-<article class="team">
+<article id="team">
+  <section>
+
+
+  
+</section>
+
+</article>
+
+<article id="donate">
   <section>
 
 
@@ -70,14 +115,8 @@
 
 </article>
 
-<article class="donate">
-  <section>
-
-
-  
-</section>
-
-</article>
+<article>
+  <!-- Project and Report blog posts -->
 
     </main>
 
@@ -88,4 +127,10 @@
   
 </footer>
 
+
+    <!-- scripts-meta -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<link rel="stylesheet" href="/assets/js/main.js">
+
 </body>
+</html>
