@@ -75,3 +75,8 @@ h1.card-title {
 #landing-btn {
   font-size: 1.35rem;
 }
+
+/* FEATURES +++++++++++++++++++++++++++++++ */
+.feature-card {
+  height: 20rem !important;
+}
