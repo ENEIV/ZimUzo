@@ -1,57 +1,79 @@
 ---
 ---
-
 /* BASE STYLING */
 html {
   font-family: Helvetica, sans-serif;
-  font-size: 20px;
+  font-variant: small-caps;
 }
 
 body {
-  background-image: url('{{ site.baseurl }}assets/img/sunrise_1.jpg');
+  background-image: url('{{site.baseurl}}/assets/img/sunrise_1.jpg');
+  background-position: center;
+  background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
-  font-variant: small-caps;
 }
 
 .serif {
   font-family: "Times New Roman";
   font-weight: lighter;
-  font-size: 1.85rem !important;
 }
 
-/* --------------------------------------------- */
+footer {
 
-/* HEADER-NAV */
+}
+
+
+/* HEADER-NAV +++++++++++++++++++++++++++++++ */
 nav {
   background-color: rgba(0, 0, 0, 0.10) !important;
 }
 /* This removes the pink
 background from the navigation
-bar */
-
+bar and add a black background
+with 10% opacity*/
 .nav-ul li > a {
-  font-size: 1.5rem !important;
+  font-size: 1.65rem !important;
 }
 /* Increase in font-size for
 the navigation list item and
 add serif styling */
-
 .brand-logo {
+  font-size: 1.95rem !important;
   padding-left: 0.85rem !important;
 }
-/* Adding some space to the
+/* Added some space to the
 "ZimUzo Foundation" nav
 logo/title to make it look
 more natural */
-
-/* --------------------------------------------- */
-
-/* LANDING */
-#landing {
-  height: 100%;
+h1.card-title {
+  font-size: 3rem !important;
 }
 
-.landing-logo {
-  background-image:url('{{ site.baseurl }}assets/img/logo/ZimUzo_VIII-PATH.png');
+/* LANDING +++++++++++++++++++++++++++++++ */
+#landing {
+  height: 110vh;
+}
+#landing-content {
+  height: 100%;
+}
+#landing-row {
+  position: relative;
+  top: 25%;
+}
+#landing-logo {
+  max-width: 100%;
+  height: auto;
+}
+#landing-card {
+  background-color: rgba(0, 0, 0, 0.0) !important;
+}
+#landing-title {
+  font-size: 3rem !important;
+  margin-bottom: 7rem;
+}
+#landing-p {
+  font-size: 1.5rem;
+}
+#landing-btn {
+  font-size: 1.35rem;
 }
