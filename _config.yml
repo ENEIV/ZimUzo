@@ -8,11 +8,11 @@ description: |
 baseurl: "/ZimUzo"
 url: https:eneiv/github.io/ZimUzo
 
-#github:
-  #user: ENEIV
-  #repository: ZimUzo
-  #url: https://eneiv/github.io/ZimUzo
-  #status: true
+github:
+  user: ENEIV
+  repository: ZimUzo
+  url: https://eneiv/github.io/ZimUzo
+  status: true
 
 
 markdown: kramdown
