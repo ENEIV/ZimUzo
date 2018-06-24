@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-image: src("{{site.baseurl}}/assets/img/feat/img-2.jpeg");
+  background-image: url("/../ZimUzo/assets/img/sunrise_1.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
