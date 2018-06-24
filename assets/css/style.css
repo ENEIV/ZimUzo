@@ -1,5 +1,5 @@
 ---
-#YAML front matter
+#YAML
 ---
 /* BASE STYLING */
 html {
@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-image: url('{{ ZimUzo/assets/img/sunrise_1.jpg' | relative_url }}');
+  background-image: url(' ZimUzo/assets/img/sunrise_1.jpg');
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
