@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-image: url("{{site.baseurl}}/assets/img/sunrise_1.jpg");
+  background-image: url("{{site.baseurl}}/img/sunrise_1.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
