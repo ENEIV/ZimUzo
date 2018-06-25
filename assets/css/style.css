@@ -1,9 +1,8 @@
 
 /* BASE STYLING */
 html {
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-variant: small-caps;
-  /* Adding text so I can try and pull */
 }
 
 body {
@@ -31,7 +30,7 @@ background from the navigation
 bar and add a black background
 with 10% opacity*/
 .nav-ul li > a {
-  font-size: 1.65rem !important;
+  font-size: 1rem !important;
   font-variant: small-caps;
 }
 /* Increase in font-size for
