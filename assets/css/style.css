@@ -1,8 +1,7 @@
 
 /* BASE STYLING */
 html {
-  font-family: Helvetica, sans-serif;
-  font-variant: small-caps;
+  font-family: sans-serif;
 }
 
 body {
@@ -31,6 +30,7 @@ bar and add a black background
 with 10% opacity*/
 .nav-ul li > a {
   font-size: 1.65rem !important;
+  font-variant: small-caps;
 }
 /* Increase in font-size for
 the navigation list item and
