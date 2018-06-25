@@ -2,7 +2,7 @@
 /* BASE STYLING */
 html {
   font-family: 'Exo 2', sans-serif;
-  font-variant: smallcaps;
+  font-variant: small-caps;
 }
 
 body {
@@ -74,7 +74,8 @@ h1.card-title {
   font-size: 1.5rem;
 }
 #landing-btn {
-  font-size: .95rem;
+  font-size: 1rem;
+  margin-top: 2rem;
 }
 
 /* FEATURES +++++++++++++++++++++++++++++++ */
