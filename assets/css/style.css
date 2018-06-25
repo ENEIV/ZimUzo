@@ -1,11 +1,8 @@
 
 /* BASE STYLING */
 html {
-<<<<<<< HEAD
-  font-family:'Exo 2' sans-serif;
-=======
+
   font-family: 'Source Sans Pro', sans-serif;
->>>>>>> 7c7f1275fe4082b57789405016918e48943e2850
   font-variant: small-caps;
 }
 
@@ -37,12 +34,8 @@ background from the navigation
 bar and add a black background
 with 10% opacity*/
 .nav-ul li > a {
-<<<<<<< HEAD
-  font-size: 1.65rem !important;
-=======
   font-size: 1.05rem !important;
   font-variant: small-caps;
->>>>>>> 7c7f1275fe4082b57789405016918e48943e2850
 }
 /* Increase in font-size for
 the navigation list item and
