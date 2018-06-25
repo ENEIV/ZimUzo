@@ -98,4 +98,4 @@ h1.card-title {
   height: 100%;
 }
 .feature-p {
-  font-size: 1.35rem;
+  font-size: 1.35rem !important;
