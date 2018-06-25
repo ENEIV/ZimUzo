@@ -7,11 +7,11 @@ html {
 }
 
 body {
+  /* Still not updating page */
   background-image: url('/../ZimUzo/assets/img/sunrise_1.jpg');
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  /* update this page pt.2*/
 }
   p {
     font-size: 1.175rem;
