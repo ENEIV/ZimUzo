@@ -3,8 +3,6 @@
 html {
   font-family: Helvetica, sans-serif;
   font-variant: small-caps;
- /* font-size: 20px; */
-  /* Add random text contetn */
 }
 
 body {
@@ -13,13 +11,10 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-  p {
-    font-size: 1.175rem;
+  .serif {
+    font-family: "Times New Roman";
+    font-weight: lighter;
   }
-    .serif {
-      font-family: "Times New Roman";
-      font-weight: lighter;
-    }
 
 footer {
 
