@@ -5,7 +5,8 @@ author: ENEIV
 author_github: ENEIV
 description: |
   a simple theme for Jekyll using Materializecss
-baseurl: "/"
+baseurl: "/ZimUzo"
+#update page
 url: https://eneiv.github.io/ZimUzo/
 
 github:
