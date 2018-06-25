@@ -1,20 +1,23 @@
 
 /* BASE STYLING */
 html {
-  font-family: 'Exo 2', sans-serif;
+  font-family:'Exo 2' sans-serif;
   font-variant: small-caps;
 }
 
 body {
-  background-image: url("/../ZimUzo/assets/img/sunrise_1.jpg");
+  background-image: url('{{ ZimUzo/assets/img/sunrise_1.jpg' | relative_url }}');
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
 }
-  .serif {
-    font-family: "Times New Roman";
-    font-weight: lighter;
+  p {
+    font-size: 1.175rem;
   }
+    .serif {
+      font-family: "Times New Roman";
+      font-weight: lighter;
+    }
 
 footer {
 
@@ -31,7 +34,6 @@ bar and add a black background
 with 10% opacity*/
 .nav-ul li > a {
   font-size: 1.65rem !important;
-  font-variant: small-caps;
 }
 /* Increase in font-size for
 the navigation list item and
@@ -74,8 +76,7 @@ h1.card-title {
   font-size: 1.5rem;
 }
 #landing-btn {
-  font-size: 1rem;
-  margin-top: 2rem;
+  font-size: .95rem;
 }
 
 /* FEATURES +++++++++++++++++++++++++++++++ */
