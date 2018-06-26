@@ -1,13 +1,14 @@
 
 /* BASE STYLING */
 html {
-  font-family: Helvetica, sans-serif;
+
+  font-family: 'Source Sans Pro', sans-serif;
   font-variant: small-caps;
-  font-size: 20px;
 }
 
 body {
-  background-image: url('{{ ZimUzo/assets/img/sunrise_1.jpg' | relative_url }}');
+  /* Still not updating page */
+  background-image: url('/../ZimUzo/assets/img/sunrise_1.jpg');
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -34,7 +35,8 @@ background from the navigation
 bar and add a black background
 with 10% opacity*/
 .nav-ul li > a {
-  font-size: 1.65rem !important;
+  font-size: 1.05rem !important;
+  font-variant: small-caps;
 }
 /* Increase in font-size for
 the navigation list item and
@@ -82,7 +84,7 @@ h1.card-title {
 
 /* FEATURES +++++++++++++++++++++++++++++++ */
 .feature-card {
-  height: 20rem !important;
+  height: 30rem !important;
   padding: 0 !important;
 }
 .feature-content {
@@ -99,3 +101,5 @@ h1.card-title {
   width: 100%;
   height: 100%;
 }
+.feature-p {
+  font-size: 1.35rem !important;

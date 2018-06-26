@@ -1,19 +1,110 @@
-<section>
-  <div class="carousel">
-    <a class="carousel-item" href="#one!">
-      <img src="{{site.baseurl}}/assets/img/sunrise_3.jpg" alt="">
-    </a>
-    <a class="carousel-item" href="#two!">
-      <img src="{{site.baseurl}}/assets/img/sunrise_10.jpg" alt="">
-    </a>
-    <a class="carousel-item" href="#three!">
-      <img src="{{site.baseurl}}/assets/img/sunrise_11.jpg" alt="">
-    </a>
-    <a class="carousel-item" href="#four!">
-      <img src="{{site.baseurl}}/assets/img/sunrise_13.jpg" alt="">
-    </a>
-    <a class="carousel-item" href="#five!">
-      <img src="{{site.baseurl}}/assets/img/sunrise_14.jpg" alt="">
-    </a>
+<div class="row">
+<div class="col s10 m10 offset-s1 offset-m1">
+
+<div class="slider col m12">
+    <ul class="slides z-depth-5">
+
+      <li> <!-- Beginng of first slider -->
+      <!-- Background Image  <img src=""> -->
+        <div class="row" id="test-row">
+
+          <div class="col m4" id="test-img-row">
+            <img id="test-img" src="assets/img/feat/avatar_img.jpg" alt="">
+          </div>
+          <div class="col m8" id="test-txt">
+            <h5 class="content-title"> Name: Test-1 </h5>
+            <hr>
+            <h6> Job/Occupation: </h6>
+            <p> Location: </p>
+            <p class="flowtext"> Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Repudiandae enim non rerum quidem nisi eligendi laudantium dolores
+              repellendus recusandae officia!
+            </p>
+        </div>
+      </div>
+    </li> <!-- End of first slider -->
+
+
+      <li> <!-- Beginning of second test-slider -->
+      <!-- Background Image  <img src=""> -->
+        <div class="row" id="test-row"> <!-- Beginning of second test-row -->
+
+          <div class="col m4" id="test-img-row">
+            <img id="test-img" src="assets/img/feat/avatar_img.jpg" alt="zim uzo logo">
+          </div>
+
+          <div class="col m8" id="test-txt">
+            <h5 class="content-title"> Name: Test-2 </h5>
+            <hr>
+            <h6> Job/Occupation: <h6>
+            <p> Location: </p>
+            <p class="flowtext"> Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Repudiandae enim non rerum quidem nisi eligendi laudantium dolores
+              repellendus recusandae officia!
+            </p>
+        </div>
+      </div> <!-- End of second test-row -->
+      </li>
+
+
+      <li> <!-- Beginng of third slider -->
+      <!-- Background Image  <img src=""> -->
+        <div class="row" id="test-row"> <!-- Beginning of third test-row -->
+
+          <div class="col m3" id="test-img-row">
+            <img id="test-img" src="assets/img/feat/avatar_img.jpg" alt="zim uzo logo">
+          </div>
+
+          <div class="col m9" id="test-txt">
+            <h5 class="content-title"> Name: Test-3 </h5>
+            <hr>
+            <h6> Job/Occupation: <h6>
+            <p> Location: </p>
+            <p class="flowtext"> Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Repudiandae enim non rerum quidem nisi eligendi laudantium dolores
+              repellendus recusandae officia!
+            </p>
+        </div>
+      </div> <!-- End of third test-row -->
+
+      </li> <!-- End of third slider -->
+
+      <li> <!-- Beginning of fourth test-slider -->
+      <!-- Background Image  <img src -->
+        <div class="row" id="test-row"> <!-- Beginning of fourth test-row -->
+
+          <div class="col m3" id="test-img-row">
+            <img id="test-img" src="assets/img/feat/avatar_img.jpg" alt="zim uzo logo">
+          </div>
+
+          <div class="col m9" id="test-txt">
+            <h5 class="content-title"> Name: Test-4 </h5>
+            <hr>
+            <h6> Job/Occupation: <h6>
+            <p> Location: </p>
+            <p class="flowtext"> Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Repudiandae enim non rerum quidem nisi eligendi laudantium dolores
+              repellendus recusandae officia!
+            </p>
+        </div>
+      </div> <!-- End of fourth test-row -->
+      </li>
+    </ul>
   </div>
-</section>
+
+</div>
+</div>
+
+
+
+<script type="text/javascript">
+//Slider Init
+document.addEventListener('DOMContentLoaded', function () {
+    var slider = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(slider, {
+      indicators: true,
+      transition: 500,
+      interval: 5000,
+    });
+  });
+</script>

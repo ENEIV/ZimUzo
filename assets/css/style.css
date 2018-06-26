@@ -84,7 +84,7 @@ h1.card-title {
 
 /* FEATURES +++++++++++++++++++++++++++++++ */
 .feature-card {
-  height: 20rem !important;
+  height: 30rem !important;
   padding: 0 !important;
 }
 .feature-content {
