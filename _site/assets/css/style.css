@@ -7,18 +7,21 @@ html {
 }
 
 body {
-  /* Still not updating page */
   background-image: url('/../ZimUzo/assets/img/sunrise_1.jpg');
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
 }
   p {
-    font-size: 1.175rem;
+    font-size: 1.5rem;
   }
     .serif {
       font-family: "Times New Roman";
       font-weight: lighter;
+    }
+
+    .card {
+      background-color: rgba(0, 0, 0, 0.5);
     }
 
 footer {
@@ -69,7 +72,7 @@ h1.card-title {
   height: auto;
 }
 #landing-card {
-  background-color: rgba(0, 0, 0, 0.0) !important;
+background-color: rgba(0, 0, 0, 0.0) !important;
 }
 #landing-title {
   font-size: 3rem !important;
@@ -101,5 +104,32 @@ h1.card-title {
   width: 100%;
   height: 100%;
 }
-.feature-p {
-  font-size: 1.35rem !important;
+
+/* Testimonials +++++++++++++++++++++++++++++++ */
+#test-slides {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* About us +++++++++++++++++++++++++++++++ */
+#about-card {
+
+}
+#about-card-img {
+  height: 30rem;
+}
+#about-img {
+  height: 30rem;
+}
+#about-content {
+  height: 30rem;
+}
+
+/* Team-Tabs +++++++++++++++++++++++++++++++ */
+#team-tabs {
+
+}
+
+/* Donation +++++++++++++++++++++++++++++++ */
+.donate-card {
+  height: 20rem;
+}
