@@ -50,9 +50,8 @@
 
     <!-- main content -->
     <main role="main">
-        <div class="row">
-  <article id="landing">
-    
+        <div class="row input-row" id="landing">
+  
 
 
 
@@ -77,25 +76,27 @@
   </div>
 </section>
 
-  </article>
 </div>
 
-<div class="row">
-  <article id="features">
-    
+<div class="row input-row" id="features">
+  
 
 
 
 <section class="feature-1">
   <div class="row">
     <div class="col s12 m7">
-      <div class="card feature-card">
+      <div class="card feature-card border-card">
         <div class="card-content white-text feature-content">
           <div class="col s12 m12">
             <h1 class="card-title serif">Card Title 1</h1>
             <hr>
             <p class="feature-p">I am a very simple card. I am good at containing small bits of information.
-            I am convenient because I require little markup to use effectively.</p>
+            I am convenient because I require little markup to use effectively.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.</p>
           </div>
         </div>
       </div>
@@ -114,13 +115,17 @@
   </div>
 
   <div class="col s12 m7">
-    <div class="card feature-card">
+    <div class="card feature-card border-card">
       <div class="card-content white-text feature-content">
         <div class="col s12 m12">
           <h1 class="card-title serif">Card Title 2</h1>
           <hr>
           <p class="feature-p">I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+          I am convenient because I require little markup to use effectively.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.</p>
         </div>
       </div>
     </div>
@@ -128,19 +133,17 @@
 </div>
 </section>
 
-  </article>
 </div>
 
-<div class="row">
-  <article id="testimonials">
-    
+<div class="row input-row" id="testimonials">
+  
 
 
 
 <div class="row">
   <div class="col s10 m10 offset-s1 offset-m1">
     <div class="slider col m12">
-      <ul class="slides z-depth-5 white-text" id="test-slides">
+      <ul class="slides z-depth-5 white-text border-card" id="test-slides">
 <!-- Beginng of slider -->
       <li>
         <div class="row">
@@ -149,7 +152,7 @@
             <img src="assets/img/feat/avatar_img.jpg" alt="">
           </div>
           <!-- First slider Content -->
-          <div class="col m8">
+          <div class="col m8 test-content">
             <h1 class="content-title serif"> Name: Test-1 </h1>
             <hr>
             <p> Location: </p>
@@ -169,7 +172,7 @@
           <img src="assets/img/feat/avatar_img.jpg" alt="">
         </div>
         <!-- Second slider Content -->
-        <div class="col m8">
+        <div class="col m8 test-content">
           <h1 class="content-title serif"> Name: Test-2 </h1>
           <hr>
           <p> Location: </p>
@@ -189,7 +192,7 @@
           <img src="assets/img/feat/avatar_img.jpg" alt="">
         </div>
         <!-- Third slider Content -->
-        <div class="col m8">
+        <div class="col m8 test-content">
           <h1 class="content-title serif"> Name: Test-3 </h1>
           <hr>
           <p> Location: </p>
@@ -209,7 +212,7 @@
             <img src="assets/img/feat/avatar_img.jpg" alt="">
           </div>
           <!-- Fourth slider Content -->
-          <div class="col m8">
+          <div class="col m8 test-content">
             <h1 class="content-title serif"> Name: Test-4 </h1>
             <hr>
             <p> Location: </p>
@@ -235,28 +238,26 @@ document.addEventListener('DOMContentLoaded', function () {
     var instances = M.Slider.init(slider, {
       indicators: true,
       transition: 500,
-      interval: 5000,
+      interval: 3000,
     });
   });
 </script>
 
-  </article>
 </div>
 
-<div class="row">
-  <article id="about">
+<div class="row input-row" id="about">
     
 
 
 
 <section>
   <div class="col s12 m12">
-  <div class="card horizontal">
+  <div class="card horizontal border-card">
     <div class="card-image">
       <img src="assets/img/sunrise_15.jpg">
     </div>
     <div class="card-stacked">
-      <div class="card-content white-text">
+      <div class="card-content white-text about-content">
       <h1 class="header white-text serif">About Us</h1>
       <hr>
         <h5 class="serif">Our Mission</h5>
@@ -270,27 +271,30 @@ document.addEventListener('DOMContentLoaded', function () {
 </div>
 </section>
 
-  </article>
 </div>
 
-<div class="row">
-  <article id="team">
+<div class="row input-row" id="team">
     <section>
 <div class="row">
   <div class="col s12 m12">
-    <div class="card">
+    <div class="card border-card" id="team-card">
       <div class="card-content white-text">
-      <h1 class="card-title serif"> Our Team </h1>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo,
-         tempora. Molestias asperiores aliquid corrupti eos quaerat facere
-         quibusdam temporibus et.</p>
-      </div>
-    </div>
-  </div>
-</div>
+        <div class="-intro">
+        <h1 class="card-title serif"> Our Team </h1>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo,
+           tempora. Molestias asperiores aliquid corrupti eos quaerat facere
+           quibusdam temporibus et. Lorem ipsum dolor sit amet, consectetur
+           adipisicing elit. Explicabo,tempora. Molestias asperiores aliquid
+           corrupti eos quaerat facere quibusdam temporibus et. Lorem ipsum dolor
+           sit amet, consectetur adipisicing elit. Explicabo,tempora.
+           Molestias asperiores aliquid corrupti eos quaerat facere quibusdam
+           temporibus et.</p>
+        </div>
 
-  <div class="row"> <!-- beginning of row 1 -->
+
+ <!-- beginning of row -->
+
     <div class="col s4 m2">
       <div class="card">
         <div class="card-image">
@@ -298,41 +302,36 @@ document.addEventListener('DOMContentLoaded', function () {
           </div>
           <div class="card-content white-text">
             <h5 class="card-title">First Name, Last Name 1</h5>
-            <p class="flowtext">I am a very simple card. I am good at containing small bits of information.
-            I am convenient because I require little markup to use effectively.</p>
+            <p class="flowtext">Lorem ipsum dolor</p>
           </div>
       </div>
     </div>
 
-    <div class="col s4 m2">
-      <div class="card">
-        <div class="card-image">
-          <img src="assets/img/feat/avatar_img.jpg">
-          </div>
-          <div class="card-content white-text">
-            <h5 class="card-title">First Name, Last Name 2</h5>
-            <p class="flowtext">I am a very simple card. I am good at containing small bits of information.
-            I am convenient because I require little markup to use effectively.</p>
-          </div>
-      </div>
+    <div class="col s4 m2"> <!-- Card 2 -->
+    <div class="card">
+      <div class="card-image">
+        <img src="assets/img/feat/avatar_img.jpg">
+        </div>
+        <div class="card-content white-text">
+          <h5 class="card-title">First Name, Last Name 2</h5>
+          <p class="flowtext">Lorem ipsum dolor</p>
+        </div>
     </div>
+  </div>
 
-
-  <div class="col s4 m2">
+    <div class="col s4 m2"> <!-- Card 3 -->
     <div class="card">
       <div class="card-image">
         <img src="assets/img/feat/avatar_img.jpg">
         </div>
         <div class="card-content white-text">
           <h5 class="card-title">First Name, Last Name 3</h5>
-          <p class="flowtext">I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+          <p class="flowtext">Lorem ipsum dolor</p>
         </div>
     </div>
   </div>
 
-
-<div class="col s4 m2">
+    <div class="col s4 m2"> <!-- Card 4 -->
   <div class="card">
     <div class="card-image">
       <img src="assets/img/feat/avatar_img.jpg">
@@ -340,244 +339,298 @@ document.addEventListener('DOMContentLoaded', function () {
       </div>
       <div class="card-content white-text">
       <h5 class="card-title">First Name, Last Name 4</h5>
-        <p class="flowtext">I am a very simple card. I am good at containing small bits of information.
-        I am convenient because I require little markup to use effectively.</p>
+        <p class="flowtext">Lorem ipsum dolor</p>
       </div>
   </div>
 </div>
 
-
-<div class="col s4 m2">
+    <div class="col s4 m2"> <!-- Card 5 -->
   <div class="card">
     <div class="card-image">
       <img src="assets/img/feat/avatar_img.jpg">
       </div>
       <div class="card-content white-text">
       <h5 class="card-title">First Name, Last Name 5</h5>
-        <p class="flowtext">I am a very simple card. I am good at containing small bits of information.
-        I am convenient because I require little markup to use effectively.</p>
+        <p class="flowtext">Lorem ipsum dolor</p>
       </div>
   </div>
 </div>
 
-<div class="col s4 m2">
+    <div class="col s4 m2"> <!-- Card 6 -->
   <div class="card">
     <div class="card-image">
       <img src="assets/img/feat/avatar_img.jpg">
       </div>
       <div class="card-content white-text">
         <h5 class="card-title">First Name, Last Name 6</h5>
-        <p class="flowtext">I am a very simple card. I am good at containing small bits of information.
-        I am convenient because I require little markup to use effectively.</p>
+        <p class="flowtext">Lorem ipsum dolor</p>
       </div>
   </div>
 </div>
 
-<div class="col s4 m2">
+    <div class="col s4 m2"> <!-- Card 7 -->
   <div class="card">
     <div class="card-image">
       <img src="assets/img/feat/avatar_img.jpg">
       </div>
       <div class="card-content white-text">
         <h5 class="card-title">First Name, Last Name 7</h5>
-        <p class="flowtext">I am a very simple card. I am good at containing small bits of information.
-        I am convenient because I require little markup to use effectively.</p>
+        <p class="flowtext">Lorem ipsum dolor</p>
       </div>
   </div>
 </div>
 
-
-<div class="col s4 m2">
+    <div class="col s4 m2"> <!-- Card 8 -->
   <div class="card">
     <div class="card-image">
       <img src="assets/img/feat/avatar_img.jpg">
       </div>
       <div class="card-content white-text">
         <h5 class="card-title">First Name, Last Name 8</h5>
-        <p class="flowtext">I am a very simple card. I am good at containing small bits of information.
-        I am convenient because I require little markup to use effectively.</p>
+        <p class="flowtext">Lorem ipsum dolor</p>
       </div>
   </div>
 </div>
 
+</div>
+</div>
+</div><!-- end of row 1 -->
 </div><!-- end of row 2 -->
 
 </section>
 
-  </article>
 </div>
 
-<div class="row">
-  <article id="donate">
+<div class="row input-row" id="donate">
     <section>
   <div class="row">
     <div class="col s12 m12">
-      <div class="card">
+      <div class="card border-card" id="donate-card">
         <div class="card-content white-text">
-        <h1 class="card-title serif"> Donations </h1>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo,
-           tempora. Molestias asperiores aliquid corrupti eos quaerat facere
-           quibusdam temporibus et.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+          <div class="-intro">
+          <h1 class="card-title serif"> Donations </h1>
+          <hr>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, suscipit,
+            officia nulla at cumque nisi qui laudantium dolorem veritatis praesentium
+            in excepturi eum cupiditate voluptas, ad fugit facere. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. Recusandae hic numquam
+            non eligendi ut, esse, quae voluptas vitae amet nesciunt! Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. Maxime consequuntur
+            dolorum et repudiandae, reiciendis mollitia expedita nisi beatae
+            labore atque? </p>
+          </div>
+
 
 <div class="row">
-  <div class="col s12 m12">
-<div class="card col s6 m6 donate-card">
+<div class="col s12 m6">
+  <div class="card donate-sec">
   <div class="card-content white-text">
-    <h5 class="card-title activator serif">Donate Time<i class="material-icons right">more_vert</i></h5>
+    <h5 class="card-title serif">Donate Time</h5>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, suscipit,
       officia nulla at cumque nisi qui laudantium dolorem veritatis praesentium
       in excepturi eum cupiditate voluptas, ad fugit facere. Voluptatum, dolores.</p>
   </div>
-  <div class="card-reveal">
-    <h5 class="card-title grey-text text-darken-4">Donate Time<i class="material-icons right">close</i></h5>
-    <div class="row">
-      <div class="col s12 m6">
-        <div class="card blue-grey darken-1">
+  <div class="donate-options">
+      <div class="col s12 m12">
+        <div class="card">
           <div class="card-content white-text">
-            <span class="card-title">Option 1</span>
+            <h5 class="card-title">Option 1</h5>
               <p>I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively.</p>
+
+          <div class="right-align">
+            <a class="waves-effect waves-light btn">learn more</a>
+          </div>
+
           </div>
         </div>
       </div>
 
 
-      <div class="col s12 m6">
-        <div class="card blue-grey darken-1">
+      <div class="col s12 m12">
+        <div class="card">
           <div class="card-content white-text">
-            <span class="card-title">Option 2</span>
+            <h5 class="card-title">Option 2</h5>
               <p>I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively.</p>
+
+          <div class="right-align">
+            <a class="waves-effect waves-light btn">learn more</a>
+          </div>
+
           </div>
         </div>
       </div>
 
 
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
+    <div class="col s12 m12">
+      <div class="card">
         <div class="card-content white-text">
-          <span class="card-title">Option 3</span>
+          <h5 class="card-title">Option 3</h5>
             <p>I am a very simple card. I am good at containing small bits of information.
             I am convenient because I require little markup to use effectively.</p>
+
+            <div class="right-align">
+              <a class="waves-effect waves-light btn">learn more</a>
+            </div>
+
         </div>
       </div>
     </div>
 
 
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
+    <div class="col s12 m12">
+      <div class="card">
         <div class="card-content white-text">
-          <span class="card-title">Option 4</span>
+          <h5 class="card-title">Option 4</h5>
             <p>I am a very simple card. I am good at containing small bits of information.
             I am convenient because I require little markup to use effectively.</p>
+
+            <div class="right-align">
+              <a class="waves-effect waves-light btn">learn more</a>
+            </div>
+
         </div>
       </div>
     </div>
 
 
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
+    <div class="col s12 m12">
+      <div class="card">
         <div class="card-content white-text">
-          <span class="card-title">Option 5</span>
+          <h5 class="card-title">Option 5</h5>
             <p>I am a very simple card. I am good at containing small bits of information.
             I am convenient because I require little markup to use effectively.</p>
+
+            <div class="right-align">
+              <a class="waves-effect waves-light btn">learn more</a>
+            </div>
+
         </div>
       </div>
     </div>
 
 
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
+    <div class="col s12 m12">
+      <div class="card">
         <div class="card-content white-text">
-          <span class="card-title">Option 6</span>
+          <h5 class="card-title">Option 6</h5>
             <p>I am a very simple card. I am good at containing small bits of information.
             I am convenient because I require little markup to use effectively.</p>
+
+            <div class="right-align">
+              <a class="waves-effect waves-light btn">learn more</a>
+            </div>
+
         </div>
       </div>
     </div>
-  </div>
 </div>
 </div>
+</div>
 
 
-<div class="card col s6 m6 donate-card">
+<div class="col s12 m6">
+  <div class="card donate-sec">
   <div class="card-content white-text">
-    <h5 class="card-title activator serif">Donate Capital<i class="material-icons right">more_vert</i></h5>
+    <h5 class="card-title serif">Donate Capital</h5>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt maxime
       ipsa veritatis, adipisci doloribus similique. Consequuntur perferendis,
       quas laudantium earum nam reprehenderit! Autem quo, nisi saepe, cupiditate
       rerum nulla quisquam?</p>
   </div>
-  <div class="card-reveal">
-    <h5 class="card-title grey-text text-darken-4">Donate Capital<i class="material-icons right">close</i></h5>
-
-    <div class="row">
-      <div class="col s12 m6">
-        <div class="card blue-grey darken-1">
+  <div class="donate-options">
+      <div class="col s12 m12">
+        <div class="card">
           <div class="card-content white-text">
-            <span class="card-title">Option 1</span>
+            <h5 class="card-title">Option 1</h5>
               <p>I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively.</p>
+
+              <div class="right-align">
+                <a class="waves-effect waves-light btn">learn more</a>
+              </div>
+
           </div>
         </div>
       </div>
 
 
-      <div class="col s12 m6">
-        <div class="card blue-grey darken-1">
+      <div class="col s12 m12">
+        <div class="card">
           <div class="card-content white-text">
-            <span class="card-title">Option 2</span>
+            <h5 class="card-title">Option 2</h5>
               <p>I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively.</p>
+
+              <div class="right-align">
+                <a class="waves-effect waves-light btn">learn more</a>
+              </div>
+
           </div>
         </div>
       </div>
 
 
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
+    <div class="col s12 m12">
+      <div class="card">
         <div class="card-content white-text">
-          <span class="card-title">Option 3</span>
+          <h5 class="card-title">Option 3</h5>
             <p>I am a very simple card. I am good at containing small bits of information.
             I am convenient because I require little markup to use effectively.</p>
+
+            <div class="right-align">
+              <a class="waves-effect waves-light btn">learn more</a>
+            </div>
+
         </div>
       </div>
     </div>
 
 
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
+    <div class="col s12 m12">
+      <div class="card">
         <div class="card-content white-text">
-          <span class="card-title">Option 4</span>
+          <h5 class="card-title">Option 4</h5>
             <p>I am a very simple card. I am good at containing small bits of information.
             I am convenient because I require little markup to use effectively.</p>
+
+            <div class="right-align">
+              <a class="waves-effect waves-light btn">learn more</a>
+            </div>
+
         </div>
       </div>
     </div>
 
 
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
+    <div class="col s12 m12">
+      <div class="card">
         <div class="card-content white-text">
-          <span class="card-title">Option 5</span>
+          <h5 class="card-title">Option 5</h5>
             <p>I am a very simple card. I am good at containing small bits of information.
             I am convenient because I require little markup to use effectively.</p>
+
+            <div class="right-align">
+              <a class="waves-effect waves-light btn">learn more</a>
+            </div>
+
         </div>
       </div>
     </div>
 
 
-    <div class="col s12 m6">
-      <div class="card blue-grey darken-1">
+    <div class="col s12 m12">
+      <div class="card">
         <div class="card-content white-text">
-          <span class="card-title">Option 6</span>
+          <h5 class="card-title">Option 6</h5>
             <p>I am a very simple card. I am good at containing small bits of information.
             I am convenient because I require little markup to use effectively.</p>
+
+            <div class="right-align">
+              <a class="waves-effect waves-light btn">learn more</a>
+            </div>
+
         </div>
       </div>
     </div>
@@ -585,11 +638,13 @@ document.addEventListener('DOMContentLoaded', function () {
 </div>
 </div>
 </div>
-</div>
 
+</div>
+</div>
+</div>
+</div>
 </section>
 
-  </article>
 </div>
 
 
@@ -600,11 +655,48 @@ document.addEventListener('DOMContentLoaded', function () {
 </body>
 <footer>
   <!-- footer -->
-  <footer>
+  <div class="row" id="footer-row">
+  <div class="row">
+      <div class="col s6 m6">
+        <h5 class="serif">Contact Us</h5>
+        <img src="assets/img/feat/map_01.jpg" alt="ZimUzo map">
+      </div>
 
+      <div class="col s6 m6">
+        <ul>
+          <h5 class="serif">follow us</h5>
+          <li>Address & location</li>
+          <li><a href="#">e-mail 1</a></li>
+          <li><a href="#">e-mail 2</a></li>
+          <li><a href="#">phone 1</a></li>
+          <li><a href="#">phone 2</a></li>
+        </ul>
+      </div>
 
+  </div>
+
+<nav class="z-depth-0" id="footer-nav">
+  <div class="nav-wrapper" id="footer-nav">
+    <ul class="">
+      <hr>
+      <li><a href="#about">about</a></li>
+      <li><a href="#donate">donate</a></li>
+      <li><a href="#">projects</a></li>
+      <li><a href="#">reports</a></li>
+      <li><a href="#footer">contact</a></li>
+      <li>follow us:</li>
+      <li><a href="#">facebook</a></li>
+      <li><a href="#">instagram</a></li>
+      <li><a href="#">instagram</a></li>
+      <li><a href="#">YouTube</a></li>
+
+      <h5 class="serif center"> 2018 Copyright 'symbol' ZimUzo Foundation </h5>
+      
+    </ul>
+  </div>
+</nav>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-</footer>
+</div>
 
 </footer>
 </html>
