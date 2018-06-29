@@ -67,7 +67,7 @@ h1.card-title {
 
 /* LANDING +++++++++++++++++++++++++++++++ */
 #landing {
-  height: 110vh;
+  height: 105vh;
 }
 #landing-content {
   height: 100%;
@@ -79,6 +79,9 @@ h1.card-title {
 #landing-logo {
   max-width: 100%;
   height: auto;
+}
+#landing-slides {
+  background-color: transparent;
 }
 #landing-card {
   background-color: rgba(0, 0, 0, 0.0) !important;
@@ -134,7 +137,14 @@ h1.card-title {
 .about-content {
   padding-right: 10rem !important;
 }
-
+.about-img-div {
+  width: 100%;
+  height: 100%;
+}
+.about-img {
+  width: 100%;
+  height: 100%;
+}
 /* Team-Tabs +++++++++++++++++++++++++++++++ */
 #team-tabs {
 
@@ -142,7 +152,14 @@ h1.card-title {
 #team-card {
   min-height: 85rem !important;
 }
-
+.test-img-div {
+  width: 100%;
+  height: 100%;
+}
+.test-img {
+  width: 100%;
+  height:100%;
+}
 /* Donation +++++++++++++++++++++++++++++++ */
 #donate-card {
   height: 80rem;
@@ -165,4 +182,19 @@ footer {
   background-color: transparent !important; <!-- Or White -->
   margin: 0 !important;
   padding: 0 !important;
+}
+.footer-img-row {
+  width: 100%;
+  height: 100%;
+  padding: 0 !important;
+}
+.footer-img {
+  width: 100%;
+  height: 100%;
+}
+.brand-text {
+  font-size: 2.5rem
+}
+.footer-social li{
+  display: inline-block;
 }

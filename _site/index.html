@@ -61,18 +61,61 @@
       <img id="landing-logo"src="/ZimUzo/assets/img/logo/ZimUzo_VIII-PATH.png" alt="">
     </div>
 
-    <div class="col s12 m4 offset-m1">
-      <div class="card z-depth-0" id="landing-card">
-        <div class="card-content black-text">
-          <h1 class="card-title serif" id="landing-title">Donate</h1>
-          <p id="landing-p">I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
-          
-          <a class="waves-effect waves-light btn-large" id="landing-btn">learn more</a>
-          
+    <div class="col m4 offset-m1">
+      <div class="row">
+        <div class="slider">
+          <ul class="slides" id="landing-slides">
+
+            <li> <!-- First slider: Donate -->
+              <div class="col s12 m12">
+                <div class="card z-depth-0" id="landing-card">
+                  <div class="card-content black-text">
+                    <h1 class="card-title serif" id="landing-title">Donate</h1>
+                    <p id="landing-p">I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+
+                    <a class="waves-effect waves-light btn-large" id="landing-btn">learn more</a>
+
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li> <!-- Second slider: Projects -->
+              <div class="col s12 m12">
+                <div class="card z-depth-0" id="landing-card">
+                  <div class="card-content black-text">
+                    <h1 class="card-title serif" id="landing-title">Projects</h1>
+                    <p id="landing-p">I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+
+                    <a class="waves-effect waves-light btn-large" id="landing-btn">learn more</a>
+
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li> <!-- Third slider: Reports -->
+              <div class="col s12 m4 offset-m1">
+                <div class="card z-depth-0" id="landing-card">
+                  <div class="card-content black-text">
+                    <h1 class="card-title serif" id="landing-title">Reports</h1>
+                    <p id="landing-p">I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+
+                    <a class="waves-effect waves-light btn-large" id="landing-btn">learn more</a>
+
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
         </div>
       </div>
     </div>
+
   </div>
 </section>
 
@@ -148,8 +191,8 @@
       <li>
         <div class="row">
           <!-- First slider Image -->
-          <div class="col m4">
-            <img src="assets/img/feat/avatar_img.jpg" alt="">
+          <div class="col m4 test-img-div">
+            <img class="test-img" src="assets/img/feat/avatar_img.jpg" alt="">
           </div>
           <!-- First slider Content -->
           <div class="col m8 test-content">
@@ -168,8 +211,8 @@
     <li>
       <div class="row">
         <!-- Second slider Image -->
-        <div class="col m4">
-          <img src="assets/img/feat/avatar_img.jpg" alt="">
+        <div class="col m4 test-img-div">
+          <img class="test-img" src="assets/img/feat/avatar_img.jpg" alt="">
         </div>
         <!-- Second slider Content -->
         <div class="col m8 test-content">
@@ -188,8 +231,8 @@
     <li>
       <div class="row">
         <!-- Third slider Image -->
-        <div class="col m4">
-          <img src="assets/img/feat/avatar_img.jpg" alt="">
+        <div class="col m4 test-img-div">
+          <img class="test-img" src="assets/img/feat/avatar_img.jpg" alt="">
         </div>
         <!-- Third slider Content -->
         <div class="col m8 test-content">
@@ -208,8 +251,8 @@
       <li>
         <div class="row">
           <!-- Fourth slider Image -->
-          <div class="col m4">
-            <img src="assets/img/feat/avatar_img.jpg" alt="">
+          <div class="col m4 test-img-div">
+            <img class="test-img" src="assets/img/feat/avatar_img.jpg" alt="">
           </div>
           <!-- Fourth slider Content -->
           <div class="col m8 test-content">
@@ -253,8 +296,8 @@ document.addEventListener('DOMContentLoaded', function () {
 <section>
   <div class="col s12 m12">
   <div class="card horizontal border-card">
-    <div class="card-image">
-      <img src="assets/img/sunrise_15.jpg">
+    <div class="card-image about-img-div">
+      <img class="about-img" src="assets/img/sunrise_15.jpg">
     </div>
     <div class="card-stacked">
       <div class="card-content white-text about-content">
@@ -657,44 +700,43 @@ document.addEventListener('DOMContentLoaded', function () {
   <!-- footer -->
   <div class="row" id="footer-row">
   <div class="row">
-      <div class="col s6 m6">
-        <h5 class="serif">Contact Us</h5>
-        <img src="assets/img/feat/map_01.jpg" alt="ZimUzo map">
+      <div class="col s6 m6 footer-img-row">
+        <img class="footer-img" src="assets/img/feat/map_01.jpg" alt="ZimUzo map">
       </div>
 
       <div class="col s6 m6">
         <ul>
-          <h5 class="serif">follow us</h5>
+          <h5 class="serif">Contact Us</h5>
+          <p class="flowtext"> We love to get in touch with our community; lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Tempore, quod,
+            perspiciatis! Culpa quam maiores reprehenderit sequi a eum
+            asperiores, eveniet.</p>
           <li>Address & location</li>
-          <li><a href="#">e-mail 1</a></li>
-          <li><a href="#">e-mail 2</a></li>
-          <li><a href="#">phone 1</a></li>
-          <li><a href="#">phone 2</a></li>
+          <li><a href="#">e-mail 1: example123@mailABC.com</a></li>
+          <li><a href="#">e-mail 2: example123@mailABC.com</a></li>
+          <li><a href="#">phone 1: 1 800 zim uzo1</a></li>
+          <li><a href="#">phone 2: 1 800 zim uzo2</a></li>
         </ul>
       </div>
-
   </div>
 
-<nav class="z-depth-0" id="footer-nav">
-  <div class="nav-wrapper" id="footer-nav">
-    <ul class="">
-      <hr>
-      <li><a href="#about">about</a></li>
-      <li><a href="#donate">donate</a></li>
-      <li><a href="#">projects</a></li>
-      <li><a href="#">reports</a></li>
-      <li><a href="#footer">contact</a></li>
-      <li>follow us:</li>
+<hr>
+
+  <div class="row center">
+    <h5>follow us:</h5>
+    <ul class="footer-social">
       <li><a href="#">facebook</a></li>
       <li><a href="#">instagram</a></li>
       <li><a href="#">instagram</a></li>
       <li><a href="#">YouTube</a></li>
-
-      <h5 class="serif center"> 2018 Copyright 'symbol' ZimUzo Foundation </h5>
-      
     </ul>
   </div>
-</nav>
+
+
+<div class="row">
+  <h5 class="serif center">ZimUzo | Foundation <p>2018 Copyright &#9400;</p></h5>
+</div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 </div>
 
