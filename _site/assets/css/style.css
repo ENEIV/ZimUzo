@@ -145,12 +145,19 @@ h1.card-title {
   width: 100%;
   height: 100%;
 }
+#about-card {
+  height: 35rem;
+}
+
 /* Team-Tabs +++++++++++++++++++++++++++++++ */
 #team-tabs {
 
 }
 #team-card {
   min-height: 85rem !important;
+}
+.test-row {
+  height:100%;
 }
 .test-img-div {
   width: 100%;
